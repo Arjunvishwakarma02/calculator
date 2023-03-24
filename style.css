@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+}
+.container{
+    width: 350px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid chartreuse;
+}
+.input{
+     
+    border: 3px solid rgb(30, 14, 110);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+input#result {
+    width: 286px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #1e471e;
+    text-align: right;
+    
+}
+button{
+    width: 70px;
+    height: 55px;
+    font-size: 30px;
+}
+.container{
+    text-align: center;
+    margin:block;
+    background-color: aqua;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    
+}
+button{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #3e8e41;
+}
+button:active{
+    background-color: #1e471e;
+}
